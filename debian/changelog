@@ -1,3 +1,14 @@
+wingpanel-indicator-sysmon (0.6.1) bionic; urgency=medium
+
+  * Minor UI changes
+  * Added support for NVMe storage devices
+  * Updated README file
+  * Added license and copyright information for cpu-temperature-symbolic svg icon
+
+
+ -- Fernando Casas Schössow <casasfernando@outlook.com>  Sat, 19 Jun 2021 19:30:00 +0200
+
+
 wingpanel-indicator-sysmon (0.6.0) bionic; urgency=medium
 
   * Added support to display CPU temperature
