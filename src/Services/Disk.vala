@@ -61,7 +61,7 @@ namespace WingpanelSystemMonitor {
 
                 while ((line = dis.read_line ()) != null) {
                     string[] reg_split = Regex.split_simple("[ ]+", line);
-                    if(reg_split[1] == "8" && Regex.match_simple("sd[a-z]{1}$", reg_split[3])) {
+                    if ((reg_split[1] == "8" && Regex.match_simple ("sd[a-z]{1}$", reg_split[3])) || (reg_split[1] == "259" && Regex.match_simple ("nvme[0-9]n[0-9]{1}$", reg_split[3]))) {
                         n_bytes_read += ulong.parse(reg_split[6]);
                         n_bytes_write += ulong.parse(reg_split[10]);
                     }
