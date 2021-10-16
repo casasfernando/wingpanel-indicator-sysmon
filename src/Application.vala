@@ -1,5 +1,6 @@
 /*-
  * Copyright (c) 2020 Tudor Plugaru (https://github.com/PlugaruT/wingpanel-monitor)
+ * Copyright (c) 2021 Fernando Casas Schössow (https://github.com/casasfernando/wingpanel-indicator-sysmon)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -17,6 +18,7 @@
  * Boston, MA 02110-1301 USA.
  *
  * Authored by: Tudor Plugaru <plugaru.tudor@gmail.com>
+ *              Fernando Casas Schössow <casasfernando@outlook.com>
  */
 
 namespace WingpanelSystemMonitor {
@@ -26,28 +28,31 @@ namespace WingpanelSystemMonitor {
                     flags : ApplicationFlags.FLAGS_NONE);
         }
 
+        private MainWindow app_window = null;
+
         protected override void activate () {
-            var app_window = new MainWindow (this);
-            app_window.show_all ();
+            if (app_window == null) {
+                app_window = new MainWindow (this);
+                app_window.set_application (this);
+                app_window.show_all ();
+
+            }
+
+            app_window.present ();
 
             var quit_action = new SimpleAction ("quit", null);
-
             add_action (quit_action);
             set_accels_for_action ("app.quit", {"Escape"});
 
             quit_action.activate.connect (() => {
-                                              if (app_window != null) {
-                                                  app_window.destroy ();
-                                              }
-                                          });
+                                                    if (app_window != null) {
+                                                        app_window.destroy ();
+                                                    }
+                                                });
         }
 
-
         private static int main (string[] args) {
-            Gtk.init (ref args);
-
-            var app = new WingpanelSystemMonitor ();
-            return app.run (args);
+            return new WingpanelSystemMonitor ().run (args);
         }
     }
 }
