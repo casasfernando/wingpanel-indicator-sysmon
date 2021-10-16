@@ -1,3 +1,13 @@
+wingpanel-indicator-sysmon (0.6.3) bionic; urgency=medium
+
+  * Fixed the application opening a new settings window every time Open Settings is clicked
+  * Added additional keyboard shortcut to close the settings window: CTRL+q
+  * New indicator icon
+
+
+ -- Fernando Casas Schössow <casasfernando@outlook.com>  Sat, 16 Oct 2021 20:25:00 +0200
+
+
 wingpanel-indicator-sysmon (0.6.2) bionic; urgency=medium
 
   * Fixed a bug in CPU temperature reading that affected AMD CPUs
