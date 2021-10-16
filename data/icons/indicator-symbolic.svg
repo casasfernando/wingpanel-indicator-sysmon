@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1084"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="indicator-symbolic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title12628">indicator-symbolic</title>
+  <sodipodi:namedview
+     id="namedview1086"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.79311236"
+     inkscape:cx="231.99739"
+     inkscape:cy="215.60627"
+     inkscape:window-width="1536"
+     inkscape:window-height="690"
+     inkscape:window-x="192"
+     inkscape:window-y="111"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1081">
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect1180"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="0,0"
+       not_jump="false"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="zerowidth" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="color:#000000;fill:#000000;stroke-linecap:square;-inkscape-stroke:none"
+       d="M 61.128906,23.832031 45.212891,75.6875 C 43.067024,71.128272 40.869738,66.458336 38.847656,62.162109 L 35.703125,55.480469 25.179687,75.910156 H 17.462891 V 83.1875 h 12.154296 l 5.791016,-11.244141 c 2.369898,5.03521 4.720668,10.029112 7.228516,15.357422 l 4.007812,8.515625 14.392578,-46.886719 c 5.07028,16.964273 10.163165,34.008554 15.28125,51.132813 l 3.460938,11.57813 3.507812,-11.5625 c 1.476527,-4.869293 2.943216,-9.709792 4.408203,-14.541021 0.236737,-0.780708 0.476806,-1.571049 0.712891,-2.349609 h 9.626953 l 0.917969,-2.279297 c 1.042091,-2.587405 1.996605,-4.962815 3.001955,-7.458984 9e-5,2.25e-4 0.002,-2.25e-4 0.002,0 0.99865,2.479734 2.08697,5.18698 3.00195,7.458984 l 0.91797,2.279297 h 12.12696 v -7.277344 h -7.21289 c -1.71209,-4.251288 -3.50075,-8.689264 -5.46094,-13.55664 l -3.37305,-8.378907 -3.374999,8.378907 -5.460937,13.55664 H 83.011719 l -0.783203,2.582031 c -0.791969,2.611745 -1.599181,5.274372 -2.398438,7.910157 l -15.261719,-51.0625 z"
+       id="path1178" />
+    <path
+       style="color:#000000;fill:#000000;fill-rule:evenodd;-inkscape-stroke:none"
+       d="m 33.896416,2.117124 c -17.508527,0 -31.7792963,14.27077 -31.7792963,31.779297 v 67.673829 c 0,17.50852 14.2707693,31.77929 31.7792963,31.77929 h 67.673834 c 17.50853,0 31.7793,-14.27077 31.7793,-31.77929 V 33.896421 c 0,-17.508527 -14.27077,-31.779297 -31.7793,-31.779297 z m 0,11.320313 h 67.673834 c 11.43306,0 20.45899,9.025926 20.45899,20.458984 v 67.673829 c 0,11.43305 -9.02593,20.45898 -20.45899,20.45898 H 33.896416 c -11.433058,0 -20.458984,-9.02593 -20.458984,-20.45898 V 33.896421 c 0,-11.433058 9.025926,-20.458984 20.458984,-20.458984 z"
+       id="rect9512" />
+  </g>
+  <metadata
+     id="metadata12626">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Fernando Casas Schössow</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Fernando Casas Schössow</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>16/10/2021</dc:date>
+        <dc:title>indicator-symbolic</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -48,7 +48,7 @@ namespace WingpanelSystemMonitor {
             network_info = new NetworkWidget ();
             disk_info = new DiskWidget ();
             workspace_info = new IndicatorWidget ("computer-symbolic", 2);
-            icon_only = new IndicatorWidget ("utilities-system-monitor-symbolic", 0);
+            icon_only = new IndicatorWidget ("indicator-symbolic", 0);
             icon_only.label_value = "";
 
             add (icon_only);
