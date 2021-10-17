@@ -18,6 +18,7 @@
  *
  * Authored by: Tudor Plugaru <plugaru.tudor@gmail.com>
  */
+
 namespace WingpanelSystemMonitor {
     public class Utils : GLib.Object {
         public Utils () {

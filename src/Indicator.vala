@@ -113,7 +113,7 @@ namespace WingpanelSystemMonitor {
                     display_widget.update_disk (disk_usage[0], disk_usage[1]);
                     display_widget.update_workspace ((int)screen.get_current_desktop () + 1);
                     update_popover_widget_data ();
-                    return true;
+                    return GLib.Source.CONTINUE;
                 });
             }
         }
