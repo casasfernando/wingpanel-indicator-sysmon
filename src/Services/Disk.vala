@@ -22,8 +22,6 @@ namespace WingpanelSystemMonitor {
     public class Disk : GLib.Object {
         private int _bytes_write;
         private ulong _bytes_write_old;
-        private bool control;
-
         private int _bytes_read;
         private ulong _bytes_read_old;
 
@@ -32,16 +30,10 @@ namespace WingpanelSystemMonitor {
             _bytes_write_old = 0;
             _bytes_read = 0;
             _bytes_read_old = 0;
-            control = false;
         }
 
         public int[] get_bytes () {
-            if (control == false) {
-                control = true;
-                update_bytes_total ();
-            } else {
-                control = false;
-            }
+            update_bytes_total ();
             int[] ret;
             ret = {_bytes_read, _bytes_write};
             return ret;
