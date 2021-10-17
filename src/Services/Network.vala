@@ -22,8 +22,6 @@ namespace WingpanelSystemMonitor {
     public class Network : GLib.Object {
         private int _bytes_in;
         private int _bytes_in_old;
-        private bool control;
-
         private int _bytes_out;
         private int _bytes_out_old;
 
@@ -32,16 +30,10 @@ namespace WingpanelSystemMonitor {
             _bytes_in_old = 0;
             _bytes_out = 0;
             _bytes_out_old = 0;
-            control = false;
         }
 
         public int[] get_bytes () {
-            if (control == false) {
-                control = true;
-                update_bytes_total ();
-            } else {
-                control = false;
-            }
+            update_bytes_total ();
             int[] ret;
             ret = {_bytes_out, _bytes_in};
             return ret;
