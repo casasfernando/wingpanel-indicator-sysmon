@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: com.github.casasfernando.wingpanel-indicator-sysmon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-29 15:53+0200\n"
-"PO-Revision-Date: 2021-10-29 15:53+0200\n"
+"PO-Revision-Date: 2021-10-29 16:12+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/Services/System.vala:58
 msgid " days, "
-msgstr ""
+msgstr " días, "
 
 #. Define read value label
 #. Define download value label
@@ -30,72 +30,72 @@ msgstr ""
 #: src/Widgets/NetworkWidget.vala:49 src/Widgets/NetworkWidget.vala:58
 #: src/Widgets/PopoverWidget.vala:94 src/Widgets/PopoverWidget.vala:101
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: src/Widgets/PopoverWidget.vala:49
 msgid "CPU Temperature"
-msgstr ""
+msgstr "Temperatura De CPU"
 
 #: src/Widgets/PopoverWidget.vala:51
 msgid "Swap"
-msgstr ""
+msgstr "Mem. Intercambio"
 
 #: src/Widgets/PopoverWidget.vala:52
 msgid "Uptime"
-msgstr ""
+msgstr "Disponibilidad"
 
 #: src/Widgets/PopoverWidget.vala:53
 msgid "Load Average"
-msgstr ""
+msgstr "Promedio De Carga"
 
 #: src/Widgets/PopoverWidget.vala:54
 msgid "Network Up"
-msgstr ""
+msgstr "Carga De Red"
 
 #: src/Widgets/PopoverWidget.vala:55
 msgid "Network Down"
-msgstr ""
+msgstr "Descarga De Red"
 
 #: src/Widgets/PopoverWidget.vala:56
 msgid "Disk Read"
-msgstr ""
+msgstr "Lectura De Disco"
 
 #: src/Widgets/PopoverWidget.vala:57
 msgid "Disk Write"
-msgstr ""
+msgstr "Escritura En Disco"
 
 #: src/Widgets/PopoverWidget.vala:60
 msgid "Open Settings..."
-msgstr ""
+msgstr "Abrir Configuración..."
 
 #: src/Widgets/Toggles.vala:45
 msgid "Show indicator icon only"
-msgstr ""
+msgstr "Mostrar sólo el ícono del indicador"
 
 #: src/Widgets/Toggles.vala:48
 msgid "CPU usage"
-msgstr ""
+msgstr "Uso de CPU"
 
 #: src/Widgets/Toggles.vala:50
 msgid "CPU temperature"
-msgstr ""
+msgstr "Temperatura de CPU"
 
 #: src/Widgets/Toggles.vala:52
 msgid "RAM usage"
-msgstr ""
+msgstr "Uso de RAM"
 
 #: src/Widgets/Toggles.vala:54
 msgid "Network throughput"
-msgstr ""
+msgstr "Rendimiento de red"
 
 #: src/Widgets/Toggles.vala:56
 msgid "Disk throughput"
-msgstr ""
+msgstr "Rendimiento de disco"
 
 #: src/Widgets/Toggles.vala:58
 msgid "Workspace number"
-msgstr ""
+msgstr "Número de espacio de trabajo"
 
 #: src/Widgets/Toggles.vala:60
 msgid "Show indicator"
-msgstr ""
+msgstr "Mostrar indicador"

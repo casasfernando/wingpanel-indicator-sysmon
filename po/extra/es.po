@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-29 15:53+0200\n"
-"PO-Revision-Date: 2021-10-29 15:53+0200\n"
+"PO-Revision-Date: 2021-10-29 16:14+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -25,13 +25,13 @@ msgstr ""
 
 #: data/com.github.casasfernando.wingpanel-indicator-sysmon.appdata.xml.in:7
 msgid "System resources monitor indicator for elementary OS Wingpanel"
-msgstr ""
+msgstr "Indicador de uso de recursos del sistema para elementary OS Wingpanel"
 
 #: data/com.github.casasfernando.wingpanel-indicator-sysmon.appdata.xml.in:9
 #: data/com.github.casasfernando.wingpanel-indicator-sysmon.desktop.in:5
 msgid ""
 "Display current system resources usage information in elementary OS Wingpanel"
-msgstr ""
+msgstr "Muestra la información actual de uso de recursos del sistema en elementary OS Wingpanel"
 
 #: data/com.github.casasfernando.wingpanel-indicator-sysmon.appdata.xml.in:22
 msgid "Fernando Casas Schössow"
@@ -47,4 +47,4 @@ msgstr ""
 
 #: data/com.github.casasfernando.wingpanel-indicator-sysmon.desktop.in:12
 msgid "System monitor;System usage;"
-msgstr ""
+msgstr "Monitor de sistema;Utilización del sistema;"
