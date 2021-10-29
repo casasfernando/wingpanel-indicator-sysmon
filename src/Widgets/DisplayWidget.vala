@@ -89,7 +89,7 @@ namespace WingpanelSystemMonitor {
                 set_widget_visible (cpu_temp_info, true);
             }
             if (val == 777) {
-                cpu_temp_info.label_value = "N/A";
+                cpu_temp_info.label_value = _("N/A");
             } else {
                 cpu_temp_info.label_value = val.to_string () + "ºC";
             }

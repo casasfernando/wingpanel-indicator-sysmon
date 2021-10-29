@@ -46,7 +46,7 @@ namespace WingpanelSystemMonitor {
             icon_write.set_pixel_size (10);
 
             // Define read value label
-            read_label = new Gtk.Label ("N/A");
+            read_label = new Gtk.Label (_("N/A"));
             read_label.set_width_chars (8);
             read_label.set_xalign (1);
             read_label.set_yalign (1);
@@ -55,7 +55,7 @@ namespace WingpanelSystemMonitor {
             read_label_context.add_class ("upload-read-download-write");
 
             // Define download value label
-            write_label = new Gtk.Label ("N/A");
+            write_label = new Gtk.Label (_("N/A"));
             write_label.set_width_chars (8);
             write_label.set_xalign (1);
             write_label.set_yalign (0);

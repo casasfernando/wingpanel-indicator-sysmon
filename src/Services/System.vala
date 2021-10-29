@@ -55,7 +55,7 @@ namespace WingpanelSystemMonitor {
 
             if (days > 0) {
                 upsec = upsec % (24 * 3600);
-                _uptime = days.to_string ().concat (" days, ", Granite.DateTime.seconds_to_time (upsec));
+                _uptime = days.to_string ().concat (_(" days, "), Granite.DateTime.seconds_to_time (upsec));
             } else {
                 _uptime = Granite.DateTime.seconds_to_time ((int)uptime.uptime);
             }

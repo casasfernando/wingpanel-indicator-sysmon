@@ -46,7 +46,7 @@ namespace WingpanelSystemMonitor {
             icon_down.set_pixel_size (10);
 
             // Define upload value label
-            upload_label = new Gtk.Label ("N/A");
+            upload_label = new Gtk.Label (_("N/A"));
             upload_label.set_width_chars (8);
             upload_label.set_xalign (1);
             upload_label.set_yalign (1);
@@ -55,7 +55,7 @@ namespace WingpanelSystemMonitor {
             upload_label_context.add_class ("upload-read-download-write");
 
             // Define download value label
-            download_label = new Gtk.Label ("N/A");
+            download_label = new Gtk.Label (_("N/A"));
             download_label.set_width_chars (8);
             download_label.set_xalign (1);
             download_label.set_yalign (0);

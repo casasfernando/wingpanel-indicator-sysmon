@@ -1,0 +1,7 @@
+src/Services/System.vala
+src/Widgets/DiskWidget.vala
+src/Widgets/DisplayWidget.vala
+src/Widgets/IndicatorWidget.vala
+src/Widgets/NetworkWidget.vala
+src/Widgets/PopoverWidget.vala
+src/Widgets/Toggles.vala

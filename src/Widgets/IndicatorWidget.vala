@@ -49,7 +49,7 @@ namespace WingpanelSystemMonitor {
 
             var group = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
 
-            label = new Gtk.Label ("N/A");
+            label = new Gtk.Label (_("N/A"));
             label.set_width_chars (char_width);
 
             group.pack_start (icon);

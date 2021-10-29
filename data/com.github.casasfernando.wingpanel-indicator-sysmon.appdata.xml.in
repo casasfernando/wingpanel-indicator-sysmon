@@ -4,14 +4,14 @@
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Wingpanel System Monitor</name>
-  <summary>System monitor indicator for Wingpanel</summary>
+  <summary>System resources monitor indicator for elementary OS Wingpanel</summary>
   <description>
-    <p>Display usage of system resources in Wingpanel.</p>
+    <p>Display current system resources usage information in elementary OS Wingpanel</p>
   </description>
   <custom>
      <value key="x-appcenter-suggested-price">0</value>
   </custom>
-    <screenshots>
+  <screenshots>
     <screenshot type="default">
       <image>https://github.com/casasfernando/wingpanel-indicator-sysmon/raw/master/data/screenshot_1.png</image>
     </screenshot>
@@ -19,12 +19,11 @@
       <image>https://github.com/casasfernando/wingpanel-indicator-sysmon/raw/master/data/screenshot_2.png</image>
     </screenshot>
   </screenshots>
-  <developer_name>Tudor Plugaru</developer_name>
+  <developer_name>Fernando Casas Schössow</developer_name>
   <url type="homepage">https://github.com/casasfernando/wingpanel-indicator-sysmon</url>
   <url type="bugtracker">https://github.com/casasfernando/wingpanel-indicator-sysmon/issues</url>
-<url type="help">https://github.com/casasfernando/wingpanel-indicator-sysmon/issues</url>
-
-<releases>
+  <url type="help">https://github.com/casasfernando/wingpanel-indicator-sysmon/issues</url>
+  <releases>
     <release version="0.1.0" date="2020-02-05">
 ​      <description>
 ​         <ul>

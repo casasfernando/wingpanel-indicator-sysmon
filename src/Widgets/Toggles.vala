@@ -41,15 +41,15 @@ namespace WingpanelSystemMonitor {
         construct {
             orientation = Gtk.Orientation.VERTICAL;
 
-            icon_only_switch = new Wingpanel.Widgets.Switch ("Show indicator icon only", settings.get_boolean ("icon-only"));
+            icon_only_switch = new Wingpanel.Widgets.Switch (_("Show indicator icon only"), settings.get_boolean ("icon-only"));
             settings_separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
-            cpu_switch = new Wingpanel.Widgets.Switch ("CPU usage", settings.get_boolean ("show-cpu"));
-            cpu_temp_switch = new Wingpanel.Widgets.Switch ("CPU temperature", settings.get_boolean ("show-cpu-temp"));
-            ram_switch = new Wingpanel.Widgets.Switch ("RAM usage", settings.get_boolean ("show-ram"));
-            network_switch = new Wingpanel.Widgets.Switch ("Network throughput", settings.get_boolean ("show-network"));
-            disk_switch = new Wingpanel.Widgets.Switch ("Disk throughput", settings.get_boolean ("show-disk"));
-            workspace_switch = new Wingpanel.Widgets.Switch ("Workspace number", settings.get_boolean ("show-workspace"));
-            indicator = new Wingpanel.Widgets.Switch ("Show indicator", settings.get_boolean ("display-indicator"));
+            cpu_switch = new Wingpanel.Widgets.Switch (_("CPU usage"), settings.get_boolean ("show-cpu"));
+            cpu_temp_switch = new Wingpanel.Widgets.Switch (_("CPU temperature"), settings.get_boolean ("show-cpu-temp"));
+            ram_switch = new Wingpanel.Widgets.Switch (_("RAM usage"), settings.get_boolean ("show-ram"));
+            network_switch = new Wingpanel.Widgets.Switch (_("Network throughput"), settings.get_boolean ("show-network"));
+            disk_switch = new Wingpanel.Widgets.Switch (_("Disk throughput"), settings.get_boolean ("show-disk"));
+            workspace_switch = new Wingpanel.Widgets.Switch (_("Workspace number"), settings.get_boolean ("show-workspace"));
+            indicator = new Wingpanel.Widgets.Switch (_("Show indicator"), settings.get_boolean ("display-indicator"));
 
             settings.bind ("display-indicator", indicator.get_switch (), "active", SettingsBindFlags.DEFAULT);
 

@@ -46,18 +46,18 @@ namespace WingpanelSystemMonitor {
             column_spacing = 4;
 
             cpu = new PopoverWidgetRow ("CPU", "0", 4);
-            cpu_temp = new PopoverWidgetRow ("CPU Temperature", "0", 4);
+            cpu_temp = new PopoverWidgetRow (_("CPU Temperature"), "0", 4);
             ram = new PopoverWidgetRow ("RAM", "0", 4);
-            swap = new PopoverWidgetRow ("Swap", "0", 4);
-            uptime = new PopoverWidgetRow ("Uptime", "0", 4);
-            load_avg = new PopoverWidgetRow ("Load Average", "0", 4);
-            network_down = new PopoverWidgetRow ("Network Down", "0", 4);
-            network_up = new PopoverWidgetRow ("Network Up", "0", 4);
-            disk_read = new PopoverWidgetRow ("Disk Read", "0", 4);
-            disk_write = new PopoverWidgetRow ("Disk Write", "0", 4);
+            swap = new PopoverWidgetRow (_("Swap"), "0", 4);
+            uptime = new PopoverWidgetRow (_("Uptime"), "0", 4);
+            load_avg = new PopoverWidgetRow (_("Load Average"), "0", 4);
+            network_up = new PopoverWidgetRow (_("Network Up"), "0", 4);
+            network_down = new PopoverWidgetRow (_("Network Down"), "0", 4);
+            disk_read = new PopoverWidgetRow (_("Disk Read"), "0", 4);
+            disk_write = new PopoverWidgetRow (_("Disk Write"), "0", 4);
 
             var settings_button = new Gtk.ModelButton ();
-            settings_button.text = _ ("Open Settings…");
+            settings_button.text = _("Open Settings...");
             settings_button.clicked.connect (open_settings);
 
 
@@ -91,14 +91,14 @@ namespace WingpanelSystemMonitor {
             if (cpufreq > 0) {
                 cpuf = Utils.format_frequency (cpufreq);
             } else {
-                cpuf = "N/A";
+                cpuf = _("N/A");
             }
             cpu.label_value = "%s / %s".printf(cpuper.to_string () + "%", cpuf);
         }
 
         public void update_cpu_temp (int cputemp) {
             if (cputemp == 777) {
-                cpu_temp.label_value = "N/A";
+                cpu_temp.label_value = _("N/A");
             } else {
                 cpu_temp.label_value = cputemp.to_string ().concat ("ºC");
             }
