@@ -37,12 +37,12 @@ Being this one of my first Vala applications I'm sure that the code can be impro
 ## Screenshots
 
 ### Indicator:
-![Screenshot](data/screenshot_1.png)
+![Screenshot](data/screenshots/screenshot_1.png)
 ### Popover:
-![Screenshot](data/screenshot_2.png)
-![Screenshot](data/screenshot_3.png)
+![Screenshot](data/screenshots/screenshot_2.png)
+![Screenshot](data/screenshots/screenshot_3.png)
 ### Settings:
-![Screenshot](data/screenshot_4.png)
+![Screenshot](data/screenshots/screenshot_4.png)
 
 ## Building and installation from source
 

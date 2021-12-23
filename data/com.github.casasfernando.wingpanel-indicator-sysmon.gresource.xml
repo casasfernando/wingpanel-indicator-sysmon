@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/casasfernando/wingpanel-indicator-sysmon">
+    <file alias="Application.css">Application.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/cpu-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/cpu-temperature-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/disk-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/download-write-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/indicator-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/net-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/ram-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/upload-read-symbolic.svg</file>
+  </gresource>
+</gresources>
