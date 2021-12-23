@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.casasfernando.wingpanel-indicator-sysmon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-29 15:53+0200\n"
-"PO-Revision-Date: 2021-10-29 16:12+0200\n"
+"POT-Creation-Date: 2021-12-23 22:38+0100\n"
+"PO-Revision-Date: 2021-12-23 22:39+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -21,10 +21,6 @@ msgstr ""
 msgid " days, "
 msgstr " días, "
 
-#. Define read value label
-#. Define download value label
-#. Define upload value label
-#. Define download value label
 #: src/Widgets/DiskWidget.vala:49 src/Widgets/DiskWidget.vala:58
 #: src/Widgets/DisplayWidget.vala:92 src/Widgets/IndicatorWidget.vala:52
 #: src/Widgets/NetworkWidget.vala:49 src/Widgets/NetworkWidget.vala:58
@@ -65,8 +61,8 @@ msgid "Disk Write"
 msgstr "Escritura En Disco"
 
 #: src/Widgets/PopoverWidget.vala:60
-msgid "Open Settings..."
-msgstr "Abrir Configuración..."
+msgid "Open Settings…"
+msgstr "Abrir Configuración…"
 
 #: src/Widgets/Toggles.vala:45
 msgid "Show indicator icon only"

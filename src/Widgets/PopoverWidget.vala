@@ -57,7 +57,7 @@ namespace WingpanelSystemMonitor {
             disk_write = new PopoverWidgetRow (_("Disk Write"), "0", 4);
 
             var settings_button = new Gtk.ModelButton ();
-            settings_button.text = _("Open Settings...");
+            settings_button.text = _("Open Settings…");
             settings_button.clicked.connect (open_settings);
 
 
