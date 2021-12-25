@@ -1,3 +1,14 @@
+wingpanel-indicator-sysmon (0.6.5) bionic; urgency=medium
+
+  * Added support for translations
+  * Added spanish translation
+  * Improved meson build system
+  * Minor UI changes
+
+
+ -- Fernando Casas Schössow <casasfernando@outlook.com>  Sat, 25 Dec 2021 11:37:00 +0100
+
+
 wingpanel-indicator-sysmon (0.6.4) bionic; urgency=medium
 
   * Fixed network throughput calculation doubling the real throughput value
