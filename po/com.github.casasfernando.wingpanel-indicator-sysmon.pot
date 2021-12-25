@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.casasfernando.wingpanel-indicator-sysmon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-23 22:38+0100\n"
+"POT-Creation-Date: 2021-12-25 11:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,34 +68,34 @@ msgstr ""
 msgid "Open Settings…"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:45
+#: src/Widgets/Toggles.vala:44
 msgid "Show indicator icon only"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:48
+#: src/Widgets/Toggles.vala:46
 msgid "CPU usage"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:50
+#: src/Widgets/Toggles.vala:47
 msgid "CPU temperature"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:52
+#: src/Widgets/Toggles.vala:48
 msgid "RAM usage"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:54
+#: src/Widgets/Toggles.vala:49
 msgid "Network throughput"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:56
+#: src/Widgets/Toggles.vala:50
 msgid "Disk throughput"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:58
+#: src/Widgets/Toggles.vala:51
 msgid "Workspace number"
 msgstr ""
 
-#: src/Widgets/Toggles.vala:60
+#: src/Widgets/Toggles.vala:52
 msgid "Show indicator"
 msgstr ""
